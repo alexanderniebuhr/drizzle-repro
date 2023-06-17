@@ -1,0 +1,18 @@
+{
+  "name": "drizzle-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+    "node": "20.2.0"
+  },
+  "packageManager": "pnpm@8.6.2",
+  "devDependencies": {
+    "typescript": "5.1.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

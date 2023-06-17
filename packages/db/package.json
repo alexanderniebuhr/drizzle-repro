@@ -1,0 +1,26 @@
+{
+  "name": "db",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsc --build --verbose"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts",
+      "import": "./src/index.ts",
+      "node": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "0.4.15",
+    "drizzle-orm": "0.27.0",
+    "drizzle-zod": "0.4.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.19.1",
+    "postgres": "3.3.5",
+    "tsx": "3.12.7"
+  }
+}
